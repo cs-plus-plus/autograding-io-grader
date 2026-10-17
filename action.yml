@@ -1,6 +1,6 @@
-name: "GitHub Classroom IO Grader"
-author: "GitHub"
-description: "A plugin for GitHub Classroom's Autograder to ensure student executables output the correct values on tests."
+name: "CS++ Autograding IO Grader"
+author: "CS++ (originally GitHub, classroom-resources)"
+description: "Compares program output with expected output. Drop-in, Node 24 continuation of classroom-resources/autograding-io-grader@v1."
 inputs:
   test-name:
     description: "The unique identifier for the test."
@@ -31,6 +31,6 @@ outputs:
   result:
     description: "Outputs the result of the grader, indicating the success or failure of the test."
 runs:
-  using: 'node20'
+  using: 'node24'
   main: 'dist/main.js'
 

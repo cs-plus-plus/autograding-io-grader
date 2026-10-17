@@ -1,3 +1,31 @@
+# CS++ Autograding IO Grader
+
+A maintained, drop-in continuation of [`classroom-resources/autograding-io-grader@v1`](https://github.com/classroom-resources/autograding-io-grader).
+GitHub retired GitHub Classroom on 2026-08-28 and archived its autograding actions on 2026-09-04.
+This repository keeps them working for teachers who grade in GitHub Actions, with or without
+[CS++](https://csplusplus.com/github).
+
+**To switch, change one line per step:**
+
+```yaml
+# before
+uses: classroom-resources/autograding-io-grader@v1
+# after
+uses: cs-plus-plus/autograding-io-grader@v1
+```
+
+Inputs, outputs and results are identical to `classroom-resources/autograding-io-grader@v1`. The code is the original v1 release; this
+fork changes only the action runtime (now Node 24) and the action's name and author.
+Issues and security reports: [open an issue](https://github.com/cs-plus-plus/autograding-io-grader/issues) or email
+kevin@csplusplus.com.
+
+Originally written by GitHub and released under the MIT License, which this fork keeps
+(see `LICENSE.md`). It is not affiliated with or endorsed by GitHub.
+
+---
+
+## Original README (v1)
+
 ## GitHub Classroom IO Grader
 
 ### Overview
